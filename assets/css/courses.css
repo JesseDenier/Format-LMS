@@ -1,0 +1,51 @@
+/* Adds all styling from style.css. */
+@import url("style.css");
+
+/* Creates a centered flexbox for holding tiled content. */
+.Content_Tiles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+/* Creates a repeatable tile that content can be placed in. */
+.Tile {
+  text-align: center;
+  background-color: var(--light_blue);
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px var(--dark_gray);
+  padding: 20px;
+}
+
+/* Forces the images within tiles to not be too large. */
+.Tile img {
+  margin-top: 10px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/* Changes color of text and shadow when hovering over tile. */
+.Tile:hover {
+  background-color: var(--dark_blue);
+  box-shadow: 1px 1px 3px var(--black);
+}
+
+@media screen and (max-width: 720px) {
+    /* Forces there to still be 2 columns of tiles and images on small devices. */
+    .Tile {
+        padding: 10px;
+    }
+
+    .Tile h3 {
+        font-size: 16px;
+    }
+
+    .Tile img {
+        margin-top: 10px;
+        max-width: 180px;
+        max-height: 180px;
+    }

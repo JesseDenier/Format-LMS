@@ -1,5 +1,5 @@
 /* Adds all styling from style.css. */
-@import "style.css";
+@import url("style.css");
 
 body {
   overflow: hidden;

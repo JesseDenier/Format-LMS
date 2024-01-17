@@ -1,3 +1,6 @@
+/* Adds all styling from normalize.css. */
+@import url("normalize.css");
+
 /* Adds repeatable variables for the CSS to call to. */
 :root {
   --dark_blue: #99d7db;
@@ -48,7 +51,7 @@ section:first-of-type {
 }
 
 section {
-  margin: 30px 0 30px 30px;
+  margin: 30px;
 }
 footer {
   text-align: center;
