@@ -7,8 +7,11 @@ body {
 iframe {
   width: 100%;
   height: calc(
-    100vh - 60px
+    100vh - var(--header_height) - var(--footer_height)
   ); /* Adjusted height to accommodate header and footer */
   border: none;
-  margin-top: calc(var(--header_height));
+}
+/* Removes the left, and right margins for main. */
+main {
+  margin: calc(var(--header_height)) 0px 0px 0px;
 }
