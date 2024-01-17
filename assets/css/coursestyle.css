@@ -1,0 +1,13 @@
+/* Adds all styling from style.css. */
+@import "style.css";
+
+body {
+  overflow: hidden;
+}
+iframe {
+  width: 100%;
+  height: calc(
+    100vh - 60px
+  ); /* Adjusted height to accommodate header and footer */
+  border: none;
+}
