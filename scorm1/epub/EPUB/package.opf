@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" xml:lang="en" unique-identifier="kotobeeEbook" prefix="cc: http://creativecommons.org/ns# rendition: http://www.idpf.org/vocab/rendition/# kotobee: https://www.kotobee.com/vocab# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:title id="title">Untitled Book</dc:title>
+        <dc:identifier id="kotobeeEbook">1</dc:identifier>
+        <dc:language>en</dc:language>
+        <dc:creator>Kotobee</dc:creator>
+        <meta property="dcterms:modified"></meta>
+        <meta content="cover-image" name="cover"/>
+        <dc:rights>Kotobee</dc:rights>
+        <meta property="dcterms:source"></meta>
+        <meta property="rendition:layout">reflowable</meta>
+        <meta property="ibooks:specified-fonts">true</meta>
+        <meta property="ibooks:interactive">true</meta>
+    </metadata>
+    <manifest>
+        <item id="html0" href="xhtml/raw/ch1.xhtml" media-type="application/xhtml+xml"/><item id="html1" href="xhtml/raw/ch2.xhtml" media-type="application/xhtml+xml"/><item id="html2" href="xhtml/raw/ch3.xhtml" media-type="application/xhtml+xml"/><item id="html3" href="xhtml/raw/ch4.xhtml" media-type="application/xhtml+xml"/><item id="html4" href="xhtml/raw/ch5.xhtml" media-type="application/xhtml+xml"/><item id="html5" href="xhtml/raw/ch6.xhtml" media-type="application/xhtml+xml"/><item id="html6" href="xhtml/raw/ch7.xhtml" media-type="application/xhtml+xml"/><item id="html7" href="xhtml/raw/ch8.xhtml" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine>
+        <itemref idref="html0" properties="rendition:layout-reflowable"/><itemref idref="html1" properties="rendition:layout-reflowable"/><itemref idref="html2" properties="rendition:layout-reflowable"/><itemref idref="html3" properties="rendition:layout-reflowable"/><itemref idref="html4" properties="rendition:layout-reflowable"/><itemref idref="html5" properties="rendition:layout-reflowable"/><itemref idref="html6" properties="rendition:layout-reflowable"/><itemref idref="html7" properties="rendition:layout-reflowable"/>
+    </spine>
+</package>

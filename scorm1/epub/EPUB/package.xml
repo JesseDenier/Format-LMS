@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="cc: http://creativecommons.org/ns# rendition: http://www.idpf.org/vocab/rendition/# kotobee: https://www.kotobee.com/vocab# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+        <dc:title id="title">Untitled Book</dc:title>
+
+        <dc:identifier id="pub-id">urn:uuid:ec22785e-45d9-83eb-b742-64e167ddf014</dc:identifier>
+        <meta name="cover" content="img0" />
+
+        <dc:creator>Kotobee</dc:creator>
+        <dc:publisher>N/A</dc:publisher>
+        <dc:rights>Kotobee</dc:rights>
+        <dc:language>en</dc:language>
+        <dc:description>No description available</dc:description>
+        <meta property="dcterms:modified">2024-01-17T13:05:35Z</meta>
+        <meta property="rendition:layout">reflowable</meta>
+        <meta property="rendition:orientation">auto</meta>
+        <meta property="ibooks:interactive">true</meta>
+        <meta property="ibooks:specified-fonts">false</meta>
+        <meta property="kotobee:version">1.8.11</meta>
+        <meta property="kotobee:build">3113</meta>
+
+        <!-- DAISY requirements -->
+        <meta property="schema:accessMode">textual</meta>
+        <meta property="schema:accessMode">visual</meta>
+        <meta property="schema:accessModeSufficient">textual, visual</meta>
+        <meta property="schema:accessibilityFeature">structuralNavigation</meta> 
+        <meta property="schema:accessibilityHazard">none</meta> 
+        <meta property="schema:accessibilitySummary">The publication contains structural and page navigation.</meta>
+
+
+    </metadata>
+    <manifest>
+        <item id="html0" href="xhtml/raw/ch1.xhtml" media-type="application/xhtml+xml"/>
+<item id="html1" href="xhtml/raw/ch2.xhtml" media-type="application/xhtml+xml"/>
+<item id="html2" href="xhtml/raw/ch3.xhtml" media-type="application/xhtml+xml"/>
+<item id="html3" href="xhtml/raw/ch4.xhtml" media-type="application/xhtml+xml"/>
+<item id="html4" href="xhtml/raw/ch5.xhtml" media-type="application/xhtml+xml"/>
+<item id="html5" href="xhtml/raw/ch6.xhtml" media-type="application/xhtml+xml"/>
+<item id="html6" href="xhtml/raw/ch7.xhtml" media-type="application/xhtml+xml"/>
+<item id="html7" href="xhtml/raw/ch8.xhtml" media-type="application/xhtml+xml"/>
+<item id="contents" href="xhtml/raw/contents.xhtml"  properties="nav" media-type="application/xhtml+xml"/>
+<item id="ncx" href="xhtml/raw/contents.ncx"  media-type="application/x-dtbncx+xml"/>
+<item id="img0" href="imgs/defaultCover.png" properties="cover-image" media-type="image/png"/>
+<item id="img1" href="imgs/ktemplate/meeting1.jpg" media-type="image/jpeg"/>
+<item id="img2" href="imgs/ktemplate/meeting3.jpg" media-type="image/jpeg"/>
+<item id="img3" href="imgs/ktemplate/meeting4.jpg" media-type="image/jpeg"/>
+<item id="img4" href="imgs/ktemplate/square.png" media-type="image/png"/>
+
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="html0" properties="rendition:layout-reflowable"/>
+<itemref idref="html1" properties="rendition:layout-reflowable"/>
+<itemref idref="html2" properties="rendition:layout-reflowable"/>
+<itemref idref="html3" properties="rendition:layout-reflowable"/>
+<itemref idref="html4" properties="rendition:layout-reflowable"/>
+<itemref idref="html5" properties="rendition:layout-reflowable"/>
+<itemref idref="html6" properties="rendition:layout-reflowable"/>
+<itemref idref="html7" properties="rendition:layout-reflowable"/>
+
+    </spine>
+
+    
+    
+</package>
