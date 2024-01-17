@@ -5,6 +5,8 @@
   --white: #ffffff;
   --dark_gray: #5a5a5a;
   --black: #000000;
+  --header_height: 80px;
+  --nav_height: 40px;
 }
 
 /* Removes the default underline/color applied to links. */
@@ -20,19 +22,31 @@ body {
 header {
   background-color: var(--light_blue);
   color: var(--black);
-  text-align: center;
-  padding: 10px;
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 0;
   width: 100%;
+  height: var(--header_height);
 }
 nav {
   background-color: var(--dark_blue);
   color: var(--black);
+  position: fixed;
   display: flex;
   justify-content: space-around;
-  padding: 10px;
+  align-items: center;
+  top: var(--header_height);
+  width: 100%;
+  height: var(--nav_height);
 }
+
+/* Adjusts first section down to not be hidden by fixed header and nav. */
+section:first-of-type {
+  margin-top: calc(var(--header_height) + var(--nav_height) + 30px);
+}
+
 section {
   margin: 30px 0 30px 30px;
 }

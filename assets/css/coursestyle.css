@@ -10,4 +10,5 @@ iframe {
     100vh - 60px
   ); /* Adjusted height to accommodate header and footer */
   border: none;
+  margin-top: calc(var(--header_height));
 }
