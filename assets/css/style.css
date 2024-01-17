@@ -36,7 +36,6 @@ header {
 }
 nav {
   background-color: var(--dark_blue);
-  color: var(--black);
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -44,7 +43,12 @@ nav {
   top: var(--header_height);
   width: 100%;
   height: var(--nav_height);
+  font-weight: bold;
 }
+nav a {
+  color: var(--dark_gray);
+}
+
 /* Adjusts main down to not be hidden by fixed header and nav. */
 main {
   margin: calc(var(--header_height) + var(--nav_height) + 30px) 30px 30px 30px;
