@@ -1,11 +1,6 @@
 /* Adds all styling from style.css. */
 @import url("style.css");
 
-/* Removes the left, and right margins for main. */
-main {
-  margin: calc(var(--header_height) + var(--nav_height) + 30px) 0px 30px 0px;
-}
-
 /* Creates a centered flexbox for holding tiled content. */
 .Content_Tiles {
   width: 100%;
