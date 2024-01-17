@@ -44,12 +44,10 @@ nav {
   width: 100%;
   height: var(--nav_height);
 }
-
 /* Adjusts first section down to not be hidden by fixed header and nav. */
 section:first-of-type {
   margin-top: calc(var(--header_height) + var(--nav_height) + 30px);
 }
-
 section {
   margin: 30px;
 }
